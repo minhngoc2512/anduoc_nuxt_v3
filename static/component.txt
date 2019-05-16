@@ -1,0 +1,21 @@
+- Header
+- Home
+    + HomeSlide
+    + HomeFeatureProduct
+    + HomeCategory
+        - HomeTitleCategory
+        - HomeHotProductCategorySlide
+        - HomeListProductCategoryHome
+            + HomeItemProductHome
+- Footer
+- DetailProduct
+    + DetailProductCategory
+    + DetailProductIntroduce
+        + DetailProductContent
+        + DetailProductDescription
+        + DetailProductComment
+    + DetailProductItemSample
+- News
+    + NewsTopHot
+    + NewsListCategory
+    + NewsHotProduct

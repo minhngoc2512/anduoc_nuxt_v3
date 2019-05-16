@@ -1,0 +1,33 @@
+{
+  "name": "anduoc_nuxt_v2",
+  "version": "1.0.0",
+  "description": "My marvelous Nuxt.js project",
+  "author": "Your Name",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "isbot": "^2.2.2",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "nuxt": "^2.4.0",
+    "slick-carousel": "^1.8.1",
+    "vue-content-loader": "^0.2.1",
+    "vue-content-loading": "^1.6.0",
+    "vue-cookie": "^1.1.4",
+    "vue-lazyload": "^1.2.6",
+    "vue-slick": "^1.1.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

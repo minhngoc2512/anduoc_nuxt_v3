@@ -1,0 +1,15 @@
+@import "config.scss";
+
+@mixin footer-contact
+{
+  width: 100%;
+  float: left;
+  font-size: $fs-12;
+  color: $text-gray-lighten;
+  p{
+    display: inline-block;
+    margin-left: 6px;
+    line-height: 25px;
+    text-transform: capitalize;
+  }
+}

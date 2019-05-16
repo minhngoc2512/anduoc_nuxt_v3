@@ -1,0 +1,138 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear-fix{
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+.padding-10{
+    padding: 10px;
+}
+.padding-5{
+    padding: 5px;
+}
+.w100{
+    width: 100%;
+}
+.w95{
+    width: 95%;
+}
+.w90{
+    width: 90%;
+}
+.w85{
+    width: 85%;
+}
+.w80{
+    width: 80%;
+}
+.w75{
+    width: 75%;
+}
+.w70{
+    width: 70%;
+}
+.w65{
+    width: 65%;
+}
+.w60{
+    width: 60%;
+}
+.w55{
+    width: 55%;
+}
+.w50{
+    width: 50%;
+}
+.w45{
+    width: 45%;
+}
+.w40{
+    width: 40%;
+}
+.w35{
+    width: 35%;
+}
+.w30{
+    width: 30%;
+}
+.w25{
+    width: 25%;
+}
+.w20{
+    width: 20%;
+}
+.w15{
+    width: 15%;
+}
+.w16{
+    width: 16.66666666%;
+}
+.w10{
+    width: 10%;
+}
+.w5{
+    width: 5%;
+}
+
+/*font*/
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/Myriad Pro Regular.ttf');
+}
+@font-face {
+    font-family: 'Helveticaneue';
+    src: url('../fonts/HelveticaNeue.otf');
+}
+/*responsive*/
+
+
+
+
+@media (max-width: 575.99px) {
+    .g1180{
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .g1180 {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .g1180{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .g1180 {
+        width: 100%;
+        padding: 0 35px;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 1200px) {
+    .g1180 {
+        max-width: 1180px;
+        padding: 0 35px;
+
+    }
+}
+

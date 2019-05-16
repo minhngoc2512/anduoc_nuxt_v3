@@ -1,0 +1,320 @@
+/*!*.sidebar{*!*/
+    /*!*padding-right: 15px;*!*/
+    /*!*box-sizing:border-box;*!*/
+    /*!*padding-top: 5px;*!*/
+/*!*}*!*/
+/*!*.full-sidebar{*!*/
+    /*!*padding-top: 10px;*!*/
+/*!*}*!*/
+/*!*.title-box-category-product{*!*/
+    /*!*padding: 10px 0;*!*/
+    /*!*border-bottom: solid 1px #e6e6e6;*!*/
+/*!*}*!*/
+/*!*.box-category-product,.box-filter-price,.box-filter-price{*!*/
+    /*!*margin-top: 0;*!*/
+    /*!*margin-bottom: 20px;*!*/
+    /*!*background: none;*!*/
+/*!*}*!*/
+/*!*.box-category-product{*!*/
+
+/*!*}*!*/
+/*!*.wrap-box-category-product{*!*/
+    /*!*box-sizing: border-box;*!*/
+/*!*}*!*/
+/*!*.wrap-box-category-product #amount{*!*/
+    /*!*color: #000 !important;*!*/
+    /*!*font-weight: normal !important;*!*/
+    /*!*font-size: 14px !important;*!*/
+    /*!*width: 100%;*!*/
+    /*!*float: left;*!*/
+    /*!*margin-bottom: 7px;*!*/
+    /*!*background-color: transparent;*!*/
+/*!*}*!*/
+/*!*.wrap-box-category-product #slider-range{*!*/
+    /*!*width: 100%;*!*/
+    /*!*float: left;*!*/
+/*!*}*!*/
+/*.wrap-box-category-product #slider-range .ui-state-active:active,.wrap-box-category-product #slider-range  .ui-state-focus:focus{*/
+    /*background: #ededed;*/
+    /*border: none;*/
+    /*outline: none;*/
+/*}*/
+/*!*.wrap-box-category-product #slider-range .ui-state-default,*!*/
+/*!*.wrap-box-category-product #slider-range .ui-state-default:hover,*!*/
+/*!*.wrap-box-category-product #slider-range .ui-state-default:active,*!*/
+/*!*.wrap-box-category-product #slider-range .ui-state-default:visited{*!*/
+    /*!*border-radius: 50%;*!*/
+    /*!*border: solid 1px #fff;*!*/
+    /*!*background-color: #6bc059 !important;*!*/
+/*!*}*!*/
+/*!*.wrap-box-category-product #slider-range .ui-slider-range{*!*/
+    /*!*background: #e4e4e4  !important;*!*/
+/*!*}*!*/
+/*!*.ui-widget.ui-widget-content {*!*/
+    /*!*border: 1px solid #e6e6e6;*!*/
+/*!*}*!*/
+/*!*.title-box-category-product h3{*!*/
+    /*!*font-size: 15px;*!*/
+    /*!*text-transform: uppercase;*!*/
+    /*!*color: #333;*!*/
+    /*!*line-height: 15px;*!*/
+/*!*}*!*/
+/*!*.content-box-sidebar{*!*/
+    /*!*!*background-color: #fff;*!*!*/
+    /*!*padding: 10px 5px;*!*/
+    /*!*width: 100%;*!*/
+    /*!*float: left;*!*/
+    /*!*box-sizing: border-box;*!*/
+    /*!*border-radius: 0px 0px 5px 5px;*!*/
+/*!*}*!*/
+/*!*.list-box-category-product{*!*/
+    /*!*width: 100%;*!*/
+    /*!*float: left;*!*/
+    /*!*padding-left: 7px;*!*/
+    /*!*box-sizing: border-box;*!*/
+/*!*}*!*/
+/*!*.item-caegory-product{*!*/
+    /*!*line-height: 32px;*!*/
+    /*!*position:relative;*!*/
+/*!*}*!*/
+
+/*!*.item-caegory-product a{*!*/
+    /*!*color: rgba(0, 0, 0, 0.8);*!*/
+    /*!*font-size: 13px;*!*/
+    /*!*font-weight: 500;*!*/
+/*!*}*!*/
+/*!*.item-caegory-product.active .fa{*!*/
+    /*!*position: absolute;*!*/
+    /*!*line-height: 24px;*!*/
+    /*!*top: 0;*!*/
+    /*!*left: -10px;*!*/
+/*!*}*!*/
+/*!*.item-caegory-product.active a{*!*/
+    /*!*font-weight: 700;*!*/
+    /*!*color: #5fb14c;*!*/
+/*!*}*!*/
+/*!*.list-trademark{*!*/
+    /*!*margin-left: 10px;*!*/
+    /*!*width: 100%;*!*/
+    /*!*float: left;*!*/
+    /*!*box-sizing: border-box;*!*/
+/*!*}*!*/
+/*!*.item-list-trademark input{*!*/
+
+/*!*}*!*/
+/*!*.item-list-trademark {*!*/
+    /*!*display: block;*!*/
+    /*!*position: relative;*!*/
+    /*!*padding-left: 25px;*!*/
+    /*!*margin-bottom: 5px;*!*/
+    /*!*cursor: pointer;*!*/
+    /*!*height: 15px;*!*/
+    /*!*font-size: 22px;*!*/
+    /*!*-webkit-user-select: none;*!*/
+    /*!*-moz-user-select: none;*!*/
+    /*!*-ms-user-select: none;*!*/
+    /*!*user-select: none;*!*/
+    /*!*font-size: 14px;*!*/
+/*!*}*!*/
+/*!*.item-list-trademark input{*!*/
+    /*!*position: absolute;*!*/
+    /*!*opacity: 0;*!*/
+    /*!*left: 0;*!*/
+/*!*}*!*/
+/*!*.checkmark {*!*/
+    /*!*cursor: pointer;*!*/
+    /*!*position: absolute;*!*/
+    /*!*top: 0;*!*/
+    /*!*left: 0;*!*/
+    /*!*height: 12px;*!*/
+    /*!*width: 12px;*!*/
+    /*!*background-color: #fff;*!*/
+    /*!*border-radius: 2px;*!*/
+    /*!*border: solid 1px #ccc;*!*/
+/*!*}*!*/
+
+/*!* On mouse-over, add a grey background color *!*/
+/*!*.item-list-trademark:hover input ~ .checkmark {*!*/
+    /*!*background-color: #ccc;*!*/
+/*!*}*!*/
+
+/*!* When the checkbox is checked, add a blue background *!*/
+/*.item-list-trademark input:checked ~ .checkmark {*/
+    /*!*background-color: #2196F3;*!*/
+/*}*/
+
+/*!* Create the checkmark/indicator (hidden when not checked) *!*/
+/*!*.checkmark:after {*!*/
+    /*!*content: "";*!*/
+    /*!*position: absolute;*!*/
+    /*!*display: none;*!*/
+/*!*}*!*/
+
+/*!* Show the checkmark when checked *!*/
+/*!*.item-list-trademark input:checked ~ .checkmark:after {*!*/
+    /*!*display: block;*!*/
+/*!*}*!*/
+
+/*!* Style the checkmark/indicator *!*/
+/*!*.item-list-trademark .checkmark:after {*!*/
+    /*!*left: 3px;*!*/
+    /*!*top: 1px;*!*/
+    /*!*width: 3px;*!*/
+    /*!*height: 6px;*!*/
+    /*!*border: solid #333;*!*/
+    /*!*border-width: 0 3px 3px 0;*!*/
+    /*!*-webkit-transform: rotate(45deg);*!*/
+    /*!*-ms-transform: rotate(45deg);*!*/
+    /*!*transform: rotate(45deg);*!*/
+/*!*}*!*/
+/*!*.filter_category {*!*/
+    /*!*display: none;*!*/
+    /*!*right: 356px;*!*/
+    /*!*position: fixed;*!*/
+    /*!*bottom: 25%;*!*/
+    /*!*z-index: 1;*!*/
+    /*!*font-size: 21px;*!*/
+    /*!*width: 30px;*!*/
+    /*!*height: 30px;*!*/
+    /*!*border: none;*!*/
+    /*!*line-height: 30px;*!*/
+    /*!*text-align: center;*!*/
+    /*!*background-color: #61bc48;*!*/
+/*!*}*!*/
+
+/*!*.filter_category:before {*!*/
+    /*!*background-color: #61bc48;*!*/
+    /*!*content: "\f0b0";*!*/
+    /*!*color: #fff;*!*/
+    /*!*width: 30px;*!*/
+    /*!*height: 30px;*!*/
+    /*!*position: absolute;*!*/
+    /*!*left: 0;*!*/
+    /*!*border-radius: 5px 0 0 5px;*!*/
+/*!*}*!*/
+/*!*responsive*!*/
+/*@media (max-width: 400px){*/
+    /*.filter_category{*/
+        /*right: 0;*/
+    /*}*/
+    /*.filter_category:checked{*/
+        /*right: 80%;*/
+        /*-webkit-transition:  1s; !* Safari *!*/
+        /*transition:  1s;*/
+    /*}*/
+    /*.sidebar{*/
+        /*right: -80%;*/
+    /*}*/
+    /*.filter_category:checked+.sidebar {*/
+        /*right: 0;*/
+        /*-webkit-transition:  1s; !* Safari *!*/
+        /*transition:  1s;*/
+    /*}*/
+/*}*/
+/*@media (max-width: 575.99px )and (min-width: 400px) {*/
+    /*.filter_category{*/
+        /*right: 0;*/
+    /*}*/
+    /*.filter_category:checked{*/
+        /*right: 320px;*/
+        /*-webkit-transition:  1s; !* Safari *!*/
+        /*transition:  1s;*/
+    /*}*/
+    /*.filter_category:checked+.sidebar{*/
+        /*right: 0;*/
+        /*-webkit-transition: 1s; !* Safari *!*/
+        /*transition:  1s;*/
+    /*}*/
+    /*.sidebar {*/
+        /*right: -320px;*/
+    /*}*/
+
+/*}*/
+/*@media (max-width: 575.99px ) {*/
+    /*#apendMenuRight {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 576px) and (max-width: 767.99px){*/
+    /*.filter_category{*/
+        /*right: 0;*/
+    /*}*/
+    /*.filter_category:checked{*/
+        /*right: 320px;*/
+        /*-webkit-transition:  1s; !* Safari *!*/
+        /*transition:  1s;*/
+    /*}*/
+    /*.filter_category:checked+.sidebar{*/
+        /*right: 0;*/
+        /*-webkit-transition:  1s; !* Safari *!*/
+        /*transition:  1s;*/
+    /*}*/
+    /*.sidebar {*/
+        /*right: -320px;*/
+    /*}*/
+    /*#apendMenuRight {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 768px) and (max-width: 991.99px){*/
+    /*.filter_category{*/
+        /*right: 0;*/
+    /*}*/
+    /*.filter_category:checked{*/
+        /*right: 320px;*/
+        /*-webkit-transition:  1s; !* Safari *!*/
+        /*transition:  1s;*/
+    /*}*/
+    /*.filter_category:checked+.sidebar{*/
+        /*right: 0;*/
+        /*-webkit-transition: 1s; !* Safari *!*/
+        /*transition: 1s;*/
+    /*}*/
+    /*.sidebar {*/
+        /*right: -320px;*/
+    /*}*/
+    /*#apendMenuRight {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+/*@media (max-width: 992px) {*/
+    /*.filter_category:checked+.sidebar{*/
+        /*box-shadow: -3px 4px 13px 0px #999;*/
+    /*}*/
+    /*.sidebar {*/
+        /*position: fixed;*/
+        /*z-index: 1000;*/
+        /*width: 80vw;*/
+        /*max-width: 320px;*/
+        /*height: 99vh;*/
+        /*padding-left: 5px;*/
+        /*background-color: #fff;*/
+        /*top: 0;*/
+        /*display: block;*/
+        /*-webkit-transition: 1s; !* Safari *!*/
+        /*transition:  1s;*/
+        /*overflow: auto;*/
+    /*}*/
+
+    /*.filter_category {*/
+        /*display: block;*/
+        /*position: fixed;*/
+        /*z-index: 1;*/
+        /*font-size: 21px;*/
+        /*width: 30px;*/
+        /*height: 30px;*/
+        /*border: none;*/
+        /*line-height: 30px;*/
+        /*text-align: center;*/
+        /*background-color: #61bc48;*/
+        /*-webkit-transition: 1s; !* Safari *!*/
+        /*transition: 1s;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 992px) and (max-width: 1199.99px) {*/
+
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+
+/*}*/

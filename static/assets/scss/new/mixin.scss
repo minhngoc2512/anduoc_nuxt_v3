@@ -1,0 +1,76 @@
+@mixin hot-pro{
+  .hot-product{
+    width: 23%;
+    float: right;
+    margin-top: 36px;
+    border: 1px solid $bd-gray-lighten-3;
+    padding: 10px;
+    background-color: $bg-white;
+    .product-hot-item{
+      width: 100%;
+      margin-left: 0;
+      border-bottom: 1px dotted $bd-gray-lighten-2;
+      /* height: 10%; */
+      height: 100px;
+      /* padding: 11px; */
+      box-sizing: border-box;
+      padding-top: 10px;
+      .pro-hot-item-image{
+        width: 85px;
+        float: left;
+        height: 85px;
+        /* height: 91%; */
+        overflow: hidden;
+        img{
+          width: 100%;
+          height: 85px;
+          object-fit: cover;
+          /* margin: 10px; */
+        }
+
+      }
+      .pro-hot-item-text{
+        width: calc(100% - 85px);
+        /* float: right; */
+        /* padding-top: 5%; */
+        margin-left: 85px;
+        h4{
+          color: $text-blue-darken-2;
+          text-transform: none;
+          text-align: left;
+          overflow: hidden;
+          padding-left: 7%;
+          font-size: $fs-13;
+          a{
+            font-weight: normal;
+            /* padding: 10px; */
+            display: block;
+            color: $text-blue-darken-2;
+            height: 46px;
+            overflow: hidden;
+            line-height: 17px;
+          }
+        }
+        p{
+          display: block;
+          font-weight: bold;
+          color: $text-red;
+          padding: 4px 0;
+          font-size: $fs-14;
+          text-align: left;
+          padding-left: 13px;
+        }
+
+      }
+    }
+  }
+}
+@mixin breadcrumb{
+  .breadcrumbs{
+    background-color:$bg-gray-lighten-4 ;
+    .breadcrumb-page{
+      line-height: 36px;
+      height: 36px;
+    }
+  }
+}

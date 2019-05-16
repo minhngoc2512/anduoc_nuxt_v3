@@ -1,0 +1,125 @@
+//Header
+$color-btn-header:#fdd835;
+$brg-header:#60bc48;
+$brg-header-linear:#76c46a;
+$brg-ring:#f00;
+//#5fb14c
+//End Header
+
+//Product
+$background_pro:#fff;
+$brg_favorite:#DF8D56;
+$font_family_price: 'Helveticaneue',
+sans-serif;
+$color_price_ins:#ff5722;
+$font_size-price: 14px;
+//End Product
+
+//Sort Product Category
+$color-sort_cat:#ff5722;
+//End Product Category
+
+
+
+$color-pagintion:rgba(0, 0, 0, .4);
+$brg-pgination-active:#5fb14c;
+$color-pagintion-active:#fff;
+
+%inline-block-middle{
+  display: inline-block;
+  vertical-align: middle;
+}
+%text-ellips{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+//Background-color
+$bg-white:white;
+$bg-gray-lighten-3:#eee;
+$bg-gray-lighten-3:#ddd;
+$bg-orange-accent-4:#f04e23;
+$bg-gray-lighten-4:#f5f5f5;
+$bg-gray-lighten-5:#f7f7f7;
+$bg-black-lighten: #232323;
+$bg-black-lighten-2: #5e5653;
+$bg-green-darken-2:#61bc48;
+
+//box-shadow
+
+$bx-gray-lighten-3:#eee;
+
+//Text-color
+$text-white:white;
+$text-orange-accent-4:#f04e23;
+$text-black:black;
+$text-red:red;
+$text-pink-accent-4:#9f224e;
+$text-blue-darken-2:#188bb8;
+$text-green-darken-2:#61bc48 !important ;
+$text-gray:#9a9898 ;
+$text-gray-lighten:#8b8b8b ;
+$text-gray-lighten-1:#e5e5e5 ;
+$text-gray-lighten-3:rgba(86, 85, 85, 0.7) ;
+$text-gray-lighten-2:#ddd ;
+$text-gray-lighten-4:#c7c6c6 ;
+
+//Border
+$bd-gray-lighten-4: #f2f2f2;
+$bd-gray-lighten-3:#cccccc7d;
+$bd-gray-lighten-2:#ddd;
+$bd-gray-lighten-1:#ccc;
+$bd-gray-lighten:#8b8b8b;
+$bd-green-darken-2:#61bc48;
+$bd-white:#f5f5f5;
+
+//Font-size
+$fs-10: 10px;
+$fs-11: 11px;
+$fs-12: 12px;
+$fs-13: 13px;
+$fs-14: 14px;
+$fs-15: 15px;
+$fs-16: 16px;
+$fs-17: 17px;
+$fs-18: 18px;
+$fs-19: 19px;
+$fs-20: 20px;
+$fs-21: 21px;
+$fs-22: 22px;
+$fs-23: 23px;
+$fs-24: 24px;
+$fs-25: 25px;
+
+//font-family
+$fa-sans-serif:sans-serif !important;
+$fa-arial:Arial;
+$fa-time-newroman:"Times New Roman", Georgia, serif;
+
+
+
+
+
+
+%flex_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+%style-content-item-sort-by-op {
+  display: block;
+  color: rgba(0, 0, 0, .8);
+  text-decoration: none;
+  font-size: 13px;
+  background-color: transparent;
+}
+%content-item-sort-by-op {
+  position: relative;
+  text-transform: uppercase;
+  height: inherit;
+  width: 100%;
+  line-height: 41px;
+}

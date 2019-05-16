@@ -1,0 +1,96 @@
+$lo-pad-num:(
+  10, 5
+);
+$lo-w-per: (
+  5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100
+);
+$lo-screen: (
+  0px 575.99px,
+  576px 767.99px,
+  768px 991.99px,
+  992px 1199.99px,
+  1200px 5000px
+);
+@mixin lo-padding {
+ @each $value in $lo-pad-num {
+   .padding-#{$value} {
+    pading: $value px;
+  }
+ }
+}
+@mixin lo-w-per {
+  $unit: 1%;
+  @each $value in $lo-w-per {
+    .w#{$value}{
+      width: $value*$unit;
+    }
+  }
+}
+@mixin lo-media {
+  @each $value in $lo-screen {
+    @media (min-width: nth($value, 1)) and (max-width: nth($value, 2)){
+      .g1180 {
+        width: 100%;
+        @if (nth($value, 1) == 992px) {
+          padding: 0px 35px;
+          box-sizing: border-box;
+        }@else if (nth($value, 2) == 1200px){
+          padding: 0px 35px;
+          max-width: 1180px;
+        }@else {
+          padding: 0px 15px;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}
+@include lo-padding();
+@include lo-w-per();
+@include lo-media();
+clear-fix {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.center {
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+i[class^=icon] {
+  background-size: cover;
+}
+
+i[class^=icon]{
+  @extend  %inline-block-middle
+}
+i[class^=icon] + span {
+  @extend  %inline-block-middle
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../fonts/Myriad Pro Regular.ttf');
+}
+@font-face {
+  font-family: 'Helveticaneue';
+  src: url('../fonts/HelveticaNeue.otf');
+}
+
+
+

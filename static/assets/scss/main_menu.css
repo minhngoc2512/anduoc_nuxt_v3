@@ -1,0 +1,106 @@
+.main-menu-fix #slimScrollDiv {
+  position: relative;
+  z-index: 99;
+  width: auto;
+  height: 100%; }
+  .main-menu-fix #slimScrollDiv .menu {
+    width: 200px;
+    z-index: 100;
+    float: left;
+    position: relative; }
+    .main-menu-fix #slimScrollDiv .menu .cate-menu {
+      height: 36px;
+      color: white;
+      text-transform: uppercase;
+      padding: 0px 10px 0 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center; }
+      .main-menu-fix #slimScrollDiv .menu .cate-menu i {
+        font-size: 16px;
+        margin-right: 5px; }
+    .main-menu-fix #slimScrollDiv .menu ul {
+      display: none;
+      background-color: #fff;
+      margin-top: 10px;
+      border-radius: 3px;
+      border: solid 1px #e2e2e2; }
+    .main-menu-fix #slimScrollDiv .menu > ul {
+      padding: 8px 0;
+      position: absolute;
+      top: 36px;
+      left: 0px;
+      background: #ffffff;
+      height: auto;
+      width: 200px;
+      display: block; }
+      .main-menu-fix #slimScrollDiv .menu > ul > li {
+        border-left: 2px solid transparent;
+        transition: 0.2s all;
+        margin-left: -1px; }
+        .main-menu-fix #slimScrollDiv .menu > ul > li.news-active {
+          position: absolute;
+          bottom: 0px;
+          width: 100%;
+          background: #61bc48;
+          border: none; }
+        .main-menu-fix #slimScrollDiv .menu > ul > li > a {
+          color: #333;
+          padding-left: 18px;
+          font-size: 13px;
+          line-height: 35px; }
+          .main-menu-fix #slimScrollDiv .menu > ul > li > a > i {
+            font-size: 8px;
+            margin-right: 4px; }
+        .main-menu-fix #slimScrollDiv .menu > ul > li > ul {
+          border: none;
+          left: 201px;
+          height: 254px;
+          margin-top: -1px;
+          position: absolute;
+          top: 0px;
+          background: #fff;
+          display: none;
+          overflow-x: hidden;
+          width: 777px;
+          overflow-y: auto;
+          flex-flow: column wrap;
+          padding: 8px 0 0 0;
+          border-radius: 3px; }
+          .main-menu-fix #slimScrollDiv .menu > ul > li > ul .title-sub-menu {
+            margin: 1px 5px 0px 10px; }
+            .main-menu-fix #slimScrollDiv .menu > ul > li > ul .title-sub-menu a {
+              color: #333;
+              line-height: 25px;
+              font-weight: bold; }
+          .main-menu-fix #slimScrollDiv .menu > ul > li > ul > li {
+            width: 200px; }
+            .main-menu-fix #slimScrollDiv .menu > ul > li > ul > li a {
+              color: #666;
+              padding: 0px 5px 0px 15px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              display: block;
+              line-height: 30px;
+              transition: all 0.2s;
+              font-size: 12px; }
+.main-menu-fix #policy-header {
+  height: 36px;
+  width: 100%;
+  background: #61BC48;
+  line-height: 36px; }
+  .main-menu-fix #policy-header a {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0 15px; }
+    .main-menu-fix #policy-header a.nth1 {
+      background: url(../images/return-16.ico) no-repeat 5px;
+      padding-left: 26px; }
+    .main-menu-fix #policy-header a.nth3 {
+      background: url(../images/delivery-16.ico) no-repeat 3px;
+      padding-left: 26px; }
+
+/*# sourceMappingURL=main_menu.css.map */
