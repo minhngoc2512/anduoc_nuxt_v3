@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/component-cache": "^1.1.4",
     "axios": "^0.18.0",
     "cross-env": "^5.2.0",
     "dotenv": "^8.0.0",

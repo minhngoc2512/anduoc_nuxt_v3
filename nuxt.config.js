@@ -74,10 +74,10 @@ module.exports = {
   modules: [
     // '@nuxtjs/pwa',
     // // '@nuxtjs/axios',
-    // '@nuxtjs/component-cache',
+    '@nuxtjs/component-cache',
     //
     // // With options
-    // ['@nuxtjs/component-cache', { maxAge: 1000 * 60 * 60 * 24 }],
+    ['@nuxtjs/component-cache', { maxAge: 1000 * 60 * 60 * 24 }],
   ],
 
   /*
