@@ -3,10 +3,10 @@ const webpack = require('webpack')
 const config_env = require("./app/config/env");
 const router = require("./router/index");
 const config_head = require("./app/config/head");
-
+const mode = process.env.MODE?process.env.MODE:'universal';
 
 module.exports = {
-  mode: 'universal',
+  mode: mode,
   env: config_env.env(),
 
   /*
